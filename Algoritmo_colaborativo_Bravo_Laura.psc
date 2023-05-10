@@ -1,5 +1,7 @@
 Algoritmo Burbuja
 	Dimension numero[100]
+	//EL BUG DEL ALGORITMO ERA QUE NO ESTABA ASIGNADA LA VARIABLE, ENTONCES EL PROGRAMA NO HACIA NADA//
+	tamanio<-20
 	i=1;
 	Para i<- 1 Hasta tamanio Con Paso 1 Hacer
 		numero[i] <- Azar(1000) +1 
